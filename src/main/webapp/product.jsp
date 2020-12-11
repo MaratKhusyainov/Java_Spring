@@ -1,5 +1,5 @@
 <%@ page import="java.util.ArrayList" %>
-<%@ page import="ru.geekbrains.servlet.Product" %><%--
+<%@ page import="Hometask1.Product1" %><%--
   Created by IntelliJ IDEA.
   User: Admin
   Date: 06.12.2020
@@ -20,9 +20,9 @@
         <th><b>Product Price<b>
 
 <%
-    ArrayList<Product> product =
-            (ArrayList<Product>) request.getAttribute("product");
-    for (Product p : product) {%>
+    ArrayList<Product1> product =
+            (ArrayList<Product1>) request.getAttribute("product");
+    for (Product1 p : product) {%>
     <tr>
         <td><%=p.getId()%>
         </td>
