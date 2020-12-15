@@ -23,7 +23,7 @@ public class ProductServlet extends HttpServlet {
         super.init();
         logger.info("init methode");
         list = new ArrayList<>();
-        list.add(new Product(1, "IPhone 8", 70000));
+        list.add(new Product(1, "IPhone 8", 75000));
         list.add(new Product(2, "IPhone 9", 80000));
         list.add(new Product(3, "IPhone 10", 90000));
         list.add(new Product(4, "IPhone 11", 100000));
