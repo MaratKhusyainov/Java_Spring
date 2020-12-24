@@ -1,6 +1,6 @@
-package com.spring.Hometask2;
+package ru.geekbrains.Hometask2;
 
-import com.spring.Hometask2.Configuration.SpringConfig;
+import ru.geekbrains.Hometask2.Configuration.SpringConfig;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 import java.util.Scanner;

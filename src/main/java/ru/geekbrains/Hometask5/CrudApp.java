@@ -8,7 +8,7 @@ import ru.geekbrains.Hometask5.Service.ProductServiceImpl;
 public class CrudApp {
     public static void main(String[] args) {
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("Config.xml");
-        ProductService productService = context.getBean("productService2", ProductServiceImpl.class);
+        ProductService productService = context.getBean("productServiceImpl", ProductServiceImpl.class);
         System.out.println(productService.getProduct());
         productService.saveOrUpdateCostumer(new Product("IPhone 8",70000));
         System.out.println(productService.getProduct());

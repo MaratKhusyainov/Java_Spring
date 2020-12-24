@@ -1,4 +1,4 @@
-package com.spring.Hometask2.Configuration;
+package ru.geekbrains.Hometask2.Configuration;
 
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;

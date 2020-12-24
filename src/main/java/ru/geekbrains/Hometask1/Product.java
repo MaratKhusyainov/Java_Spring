@@ -1,6 +1,8 @@
-package com.spring.Hometask2;
+package ru.geekbrains.Hometask1;
 
-import lombok.*;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
 
 @Data
 @AllArgsConstructor
@@ -9,3 +11,4 @@ public class Product {
     private String title;
     private int price;
 }
+

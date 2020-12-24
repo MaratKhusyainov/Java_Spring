@@ -5,7 +5,7 @@ import ru.geekbrains.Hometask5.Model.Product;
 import java.util.List;
 
 public interface ProductService {
-    public List<Product>getProduct();
+    List<Product>getProduct();
 
     void saveOrUpdateCostumer (Product product);
 

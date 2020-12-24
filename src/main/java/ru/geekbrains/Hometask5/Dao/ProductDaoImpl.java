@@ -1,12 +1,16 @@
 package ru.geekbrains.Hometask5.Dao;
 
+import lombok.RequiredArgsConstructor;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.query.Query;
+import org.springframework.stereotype.Repository;
 import ru.geekbrains.Hometask5.Model.Product;
 
 import java.util.List;
 
+@Repository
+@RequiredArgsConstructor
 public class ProductDaoImpl implements ProductDao {
     private SessionFactory sessionFactory;
 

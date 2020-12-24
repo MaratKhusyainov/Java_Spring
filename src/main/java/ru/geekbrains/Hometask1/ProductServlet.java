@@ -1,4 +1,4 @@
-package ru.geekbrains.servlet;
+package ru.geekbrains.Hometask1;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

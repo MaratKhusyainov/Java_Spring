@@ -1,21 +1,23 @@
 package ru.geekbrains.Hometask5.Service;
 
+
+import lombok.RequiredArgsConstructor;
+import org.springframework.stereotype.Service;
 import ru.geekbrains.Hometask5.Dao.ProductDao;
 import ru.geekbrains.Hometask5.Model.Product;
 
 import javax.transaction.Transactional;
 import java.util.List;
 
+
+@Service
+@RequiredArgsConstructor
 public class ProductServiceImpl implements ProductService {
     private final ProductDao productDao;
 
-    public ProductServiceImpl(ProductDao productDao) {
-        this.productDao = productDao;
-    }
-
     @Override
     @Transactional
-    public List<Product>getProduct() {
+    public List<Product> getProduct() {
         return productDao.getProduct();
     }
 
@@ -23,8 +25,7 @@ public class ProductServiceImpl implements ProductService {
     @Transactional
     public void saveOrUpdateCostumer(Product product) {
         productDao.saveOrUpdateProduct(product);
-
-    }
+            }
 
     @Override
     @Transactional

@@ -1,4 +1,4 @@
-package com.spring.Hometask3;
+package ru.geekbrains.Hometask3;
 
 import org.eclipse.jetty.server.Server;
 import org.eclipse.jetty.webapp.WebAppContext;

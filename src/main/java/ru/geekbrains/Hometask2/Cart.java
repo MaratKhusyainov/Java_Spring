@@ -1,4 +1,4 @@
-package com.spring.Hometask2;
+package ru.geekbrains.Hometask2;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;

@@ -1,8 +1,6 @@
-package ru.geekbrains.servlet;
+package ru.geekbrains.Hometask2;
 
-
-import lombok.AllArgsConstructor;
-import lombok.Data;
+import lombok.*;
 
 @Data
 @AllArgsConstructor

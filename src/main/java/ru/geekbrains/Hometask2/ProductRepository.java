@@ -1,4 +1,4 @@
-package com.spring.Hometask2;
+package ru.geekbrains.Hometask2;
 
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Component;

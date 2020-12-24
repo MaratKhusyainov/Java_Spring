@@ -1,7 +1,5 @@
-package com.spring.Hometask3;
+package ru.geekbrains.Hometask3;
 
-import com.spring.Hometask3.Product;
-import com.spring.Hometask3.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
